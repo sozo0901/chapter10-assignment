@@ -71,12 +71,18 @@ footer {
   }
 
   main {
-    width: 90%;
+    width: 100%;
     display: block;
   }
 
   .step-box {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+  
+  .step-box:last-child {
+    margin-bottom: 0;
+    margin-right: 5%;
+
   }
 }
